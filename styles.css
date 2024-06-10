@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -123,10 +123,10 @@ button:hover {
 
 .section-2 > p {
     font-size: 36px;
-    font-weight:lighter;
+    font-weight: 50px;
     font-style: italic;
     color: #1F2937;
-    margin: 0 500px;
+    margin: 0 400px;
 }
 
 .section-2 span {
@@ -134,11 +134,11 @@ button:hover {
     font-weight: bold;
     font-size: 28px;
     align-self: flex-end;
-    margin: 0 550px;
+    margin: 0 400px;
 }
 
 .section-3 {
-    padding: 55px 88px;
+    padding: 100px 0;
     margin: 0 300px;
 }
 
@@ -147,16 +147,24 @@ button:hover {
     color: #F9FAF8;
     border-radius: 10px;
     display: flex;
-    padding: 50px 10px;
+    padding: 60px 20px;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .button-2 {
     background-color: #3882F6;
     color: white;
-    padding: 4px 20px;
+    padding: 10px 60px;
     border-radius: 10px;
     border: 2px solid white;
     font-size: 20px;
+}
+
+footer {
+    font-size: 24px;
+    text-align: center;
+    color:#F9FAF8; 
+    padding: 45px;
+    background-color: #1F2937;
 }
