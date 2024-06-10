@@ -66,10 +66,11 @@ img {
 button {
     background-color: #3882F6;
     color: white;
-    padding: 4px 20px;
+    padding: 10px 35px;
     border-radius: 10px;
     border: none;
-    font-size: 32px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 button:hover {
@@ -134,4 +135,28 @@ button:hover {
     font-size: 28px;
     align-self: flex-end;
     margin: 0 550px;
+}
+
+.section-3 {
+    padding: 55px 88px;
+    margin: 0 300px;
+}
+
+.section-3-box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    display: flex;
+    padding: 50px 10px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.button-2 {
+    background-color: #3882F6;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 20px;
 }
