@@ -6,7 +6,6 @@
 
 .header {
     background-color: #1F2937;
-    
 }
 
 .header_upper {
@@ -14,7 +13,6 @@
     justify-content: space-between;
     margin: 0 300px;
     padding-top: 15px;
-    
 }
 
 .header_logo {
@@ -43,8 +41,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     margin: 0 300px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 .header_lower_left {
@@ -60,7 +57,6 @@ a:hover {
 .subtitle {
     font-size: 24px;
     margin-right: 100px;
-    
 }
 
 img {
@@ -74,11 +70,10 @@ button {
     border-radius: 10px;
     border: none;
     font-size: 32px;
-    
 }
 
 button:hover {
-    background-color: #2070e8; 
+    background-color: #2070e8;
 }
 
 .section-1 {
@@ -89,10 +84,9 @@ button:hover {
 
 .s1-header {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #1F2937;
-    margin: 50px;
-    
+    margin: 50px 0;
 }
 
 .frames {
@@ -117,4 +111,27 @@ button:hover {
     border: 5px solid #3882F6;
     border-radius: 20px;
     margin-bottom: 10px;
+}
+
+.section-2 {
+    background-color: #E5E7EB;
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2 > p {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0 500px;
+}
+
+.section-2 span {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 28px;
+    align-self: flex-end;
+    margin: 0 550px;
 }
